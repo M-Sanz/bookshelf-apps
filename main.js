@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         let title = document.getElementById("inputBookTitle").value;
         let author = document.getElementById("inputBookTitle").value;
-        let year = document.getElementById("inputBookYear").value;
+        let year = parseInt(document.getElementById("inputBookYear").value);
         let isComplete = document.getElementById("inputBookIsComplete").checked;
 
         let buku = {
